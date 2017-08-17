@@ -1,0 +1,13 @@
+
+DROP TABLE IF EXISTS fraud_ip;
+CREATE TABLE fraud_ip(
+ip String,
+date String,
+request_url String,
+protocol_type String,
+status_code String
+)
+PARTITIONED BY (col1 STRING)
+CLUSTERED BY (col3) into 5 buckets
+STORED AS ORC;
+

@@ -1,0 +1,8 @@
+zkhost = localhost:2181
+inputTopic =locinput1
+outputTopic=locoutput
+KafkaBroker =sandbox.hortonworks.com:6667
+consumerGroup=id7
+metaStoreURI = thrift://sandbox.hortonworks.com:9083
+dbName = default
+tblName = location
